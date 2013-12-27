@@ -5,8 +5,8 @@ import javax.xml.bind.annotation._
 /**
  * @author dweidenfeld
  */
-@XmlRootElement(name = "job-status")
+@XmlRootElement(name = "job")
 @XmlAccessorType(XmlAccessType.FIELD)
-class JobStatus {
-
+class Job {
+  var running = false
 }
